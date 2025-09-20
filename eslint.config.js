@@ -38,7 +38,7 @@ export default [
             'comma-dangle': ['error', 'always-multiline'],
             'semi': ['error', 'always'],
             'quotes': ['error', 'double', { avoidEscape: true }],
-            'indent': ['error', 4, { SwitchCase: 1 }],
+            'indent': ['error', 2, { SwitchCase: 1 }],
 
             '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': true }],
 
